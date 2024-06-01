@@ -8,35 +8,50 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Charactor card',
-      home: MyCard(),
+      title: 'BBANTO',
+      home: Grade(),
     );
   }
 }
 
-class MyCard extends StatelessWidget {
-  const MyCard({super.key});
+class Grade extends StatelessWidget {
+  const Grade({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.amber[800],
       appBar: AppBar(
         title: Text('BBANTO'),
+        backgroundColor: Colors.amber[700],
         centerTitle: true,
-        backgroundColor: Colors.redAccent,
-        elevation: 0.0,
+        elevation: 0.0, //앱바 입체감 없애기.
       ),
-      body: Center(
+      body: Padding(
+        padding: EdgeInsets.fromLTRB(30.0, 40.0, 0.0, 0.0),
         child: Column(
-            //mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text('Hello'),
-              Text('Hello'),
-              Text('Hello'),
-            ],
-          ),
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Text('NAME',
+            style: TextStyle(
+              color: Colors.white,
+              letterSpacing: 2.0 //철자간의 간격 조절
+            ),
+            ),
+            SizedBox( //SizedBox는 두가지 속성을 가지고 있다(height, width)
+              height: 10.0,
+            ),
+            Text('BBANTO',
+            style: TextStyle(
+              color: Colors.white,
+              letterSpacing: 2.0,
+              fontSize: 28.0,
+              fontWeight: FontWeight.bold //글씨 두껍게
+            ),
+            ),
+          ],
+        ),
       ),
     );
   }
 }
-
