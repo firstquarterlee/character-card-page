@@ -1,16 +1,2 @@
-# flutter_page_design
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="200" alt="스크린샷 2024-06-02 오후 10 14 05" src="https://github.com/firstquarterlee/character-card-page/assets/138273378/0aa4cdc1-51b2-45b8-8f09-135a2ed224d9">
